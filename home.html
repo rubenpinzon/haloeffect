@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/trancss.css" />
+    <link rel="stylesheet" href="css/rSlider.min.css">
+
+</head>
+<body>
+
+<form action="login.php" autocomplete="off" method="post">
+
+    <!-- Home -->
+    <div id="home" class="panel">
+        <div class="content">
+            <div class="col span_left">
+                <img id="subject_high" src="images/annevNHIGH.jpg" alt="Picture Subject">
+            </div>
+            <div class="col span_right">
+                <div class="container">
+                    <table>
+                        <tr>
+                            <th>Strongly <br>Disagree</th>
+                            <th>Disagree</th>
+                            <th>Neither<br>Agree nor <br>Disagree</th>
+                            <th>Agree</th>
+                            <th>Strongly<br>Agree</th>
+                        </tr>
+                    </table>
+                    <div>
+                        <p><strong> Q1. </strong>This person is attractive</p>
+                    </div>
+
+                    <div class="slider-container">
+                        <input type="text" name="attr_1" id="slider_1" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q2. </strong>This person always submits homework on time</p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="comp_1" id="slider_2" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q3. </strong>This person seems like a fun companion to go hiking </p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="soci_1" id="slider_3" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q4. </strong>This person is trustworthy</p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="trus_1" id="slider_4" class="slider" />
+                    </div>
+                    <div class="slider-container">
+                        <strong>Your gender:</strong>
+                        <select name="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <strong>Your age:</strong>
+                        <input type="number" name="age" value="0" placeholder="0" min="0" max="99">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Home -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="panel">
+        <div class="content">
+            <div class="col span_left">
+                <img id="subject_low" src="images/annevNLOW.jpg" alt="Picture Subject">
+            </div>
+            <div class="col span_right">
+                <div class="container">
+                    <table>
+                        <tr>
+                            <th>Strongly <br>Disagree</th>
+                            <th>Disagree</th>
+                            <th>Neither<br>Agree nor <br>Disagree</th>
+                            <th>Agree</th>
+                            <th>Strongly<br>Agree</th>
+                        </tr>
+                    </table>
+                    <div>
+                        <p><strong> Q1. </strong>This person is attractive</p>
+                    </div>
+
+                    <div class="slider-container">
+                        <input type="text" name="attr_2" id="slider_5" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q2. </strong>This person always submits homework on time</p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="comp_2" id="slider_6" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q3. </strong>This person seems like a fun companion to go hiking </p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="soci_2" id="slider_7" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q4. </strong>This person is trustworthy</p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="trus_2" id="slider_8" class="slider" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- About -->
+    <div id="about" class="panel">
+        <div class="content">
+            <div class="col span_left">
+                <img id="subject_rand" src="images/annevNHIGH.jpg" alt="Random Sample">
+            </div>
+            <div class="col span_right">
+                <div class="container">
+                    <table>
+                        <tr>
+                            <th>Strongly <br>Disagree</th>
+                            <th>Disagree</th>
+                            <th>Neither<br>Agree nor <br>Disagree</th>
+                            <th>Agree</th>
+                            <th>Strongly<br>Agree</th>
+                        </tr>
+                    </table>
+                    <input id="pictures" type="hidden" name="pictures" value="none" />
+                    <div>
+                        <p><strong> Q1. </strong>This person is attractive</p>
+                    </div>
+
+                    <div class="slider-container">
+                        <input type="text" name="attr_3" id="slider_9" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q2. </strong>This person always submits homework on time</p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="comp_3" id="slider_10" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q3. </strong>This person seems like a fun companion to go hiking </p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="soci_3" id="slider_11" class="slider" />
+                    </div>
+                    <div>
+                        <p><strong> Q4. </strong>This person is trustworthy</p>
+                    </div>
+                    <div class="slider-container">
+                        <input type="text" name="trus_3" id="slider_12" class="slider" />
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /About -->
+
+    <!-- Header with Navigation -->
+    <div id="header">
+        <h1>Samples</h1>
+        <ul id="navigation">
+            <li><a id="link-home" href="#home">Sample 1</a></li>
+            <li><a id="link-portfolio" href="#portfolio">Sample 2</a></li>
+            <li><a id="link-about" href="#about">Sample 3</a></li>
+            <li><input class="button" type="submit"></li>
+        </ul>
+
+    </div>
+
+</form>
+
+<script src="js/rSlider.min.js"></script>
+<script>
+    (function () {
+        'use strict';
+        var num_questions = 12;
+        var init = function () {
+            var highSym = new Array("bradpNHIGH.jpg","marjorietNHIGH.jpg","barrylNHIGH.jpg","mattbNHIGH.jpg","melindahNHIGH.jpg",".DS_Store","lancebNHIGH.jpg","brianwNHIGH.jpg","daviddNHIGH.jpg","dalehNHIGH.jpg","unidentfNHIGH.jpg","victoriacNHIGH.jpg","annevNHIGH.jpg","danmNHIGH.jpg","craigjNHIGH.jpg","jeanhNHIGH.jpg","female9NHIGH.jpg","mdsuthNHIGH.jpg","normahNHIGH.jpg","liaaNHIGH.jpg","barbaraoNHIGH.jpg","bobvNHIGH.jpg","jasonwNHIGH.jpg","female4NHIGH.jpg");
+            var lowSym = new Array("female4NLOW.jpg","danmNLOW.jpg","dalehNLOW.jpg","barbaraoNLOW.jpg","barrylNLOW.jpg","marjorietNLOW.jpg","mattbNLOW.jpg","normahNLOW.jpg","daviddNLOW.jpg","female9NLOW.jpg","annevNLOW.jpg","unidentfNLOW.jpg","craigjNLOW.jpg","melindahNLOW.jpg","bradpNLOW.jpg","mdsuthNLOW.jpg","lancebNLOW.jpg","jasonwNLOW.jpg","victoriacNLOW.jpg","brianwNLOW.jpg","liaaNLOW.jpg","jeanhNLOW.jpg","bobvNLOW.jpg");
+            var nameThird = "";
+            var randomHigh = Math.floor(Math.random() * highSym.length);
+            var randomLow = Math.floor(Math.random() * lowSym.length);
+            document.getElementById("subject_high").src = "images/" + highSym[randomHigh];
+            document.getElementById("subject_low").src = "images/" + lowSym[randomLow];
+            if (Math.floor(Math.random())>0.5){
+                randomHigh = Math.floor(Math.random() * highSym.length);
+                nameThird = highSym[randomHigh];
+
+            }else{
+                randomLow = Math.floor(Math.random() * lowSym.length);
+                nameThird = lowSym[randomLow];
+            }
+            document.getElementById("subject_rand").src = "images/" + nameThird;
+
+            document.getElementById("pictures").value = highSym[randomHigh] + "-" + lowSym[randomLow]+"-"+nameThird;
+            var questions = [];
+
+            for (var i = 1; i <= num_questions;i++ ){
+                questions.push(
+                    new rSlider({
+                        target: '#slider'+'_'+i,
+                        values: [1, 2, 3, 4, 5],
+                        range: false,
+                        set: [3],
+                        labels: false,
+                        tooltip: false
+                    })
+                );
+            };
+
+        };
+        window.onload = init;
+    })();
+</script>
+</body>
+</html>
